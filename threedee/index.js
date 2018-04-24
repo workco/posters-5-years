@@ -85,9 +85,6 @@ function init() {
 			objectInfo.object.position.x = objectInfo.originalPosition.x + Math.sin(now / objectInfo.cycleDuration * TAU / 3) * FLOAT_RADIUS_LATERAL + objectInfo.spinRepulse.x * repulseRadius;
 			objectInfo.object.position.y = objectInfo.originalPosition.y + Math.sin(now / objectInfo.cycleDuration * TAU) * FLOAT_RADIUS_VERTICAL + objectInfo.spinRepulse.y * repulseRadius;;
 			objectInfo.object.position.z = objectInfo.originalPosition.z + Math.sin(now / objectInfo.cycleDuration * TAU / 5) * FLOAT_RADIUS_LATERAL + objectInfo.spinRepulse.z * repulseRadius;
-
-
-
 		}
 
 		scene.render();
