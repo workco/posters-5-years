@@ -18,7 +18,7 @@ This means that files can be edited in any text editor, and reloaded in the brow
 
 If you want to play around with the code for each poster:
 
-1. Download [a ZIP file with the source code](archive/master.zip).
+1. Download [a ZIP file with the source code](https://github.com/workco/posters-5-years/archive/master.zip).
 1. Expand that ZIP file anywhere on your computer.
 1. Open one of the folders (`threedee`, `geometric`, or `lines`).
 1. Drag the `index.html` from that folder into your browser.
